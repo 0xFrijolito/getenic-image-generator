@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Generative Art Generator </title>
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="bg-white">
+    <div class="container">
+      <h1 class="ta-center mb-2"> Generative Art with GA's </h1>
+      <img id="reference-img" src="/images/lachicadelaperla.jpeg" style="display: none;">
+      <div class="display-flex align-items-center justify-content-space-between m-auto m-2">
+        <canvas class="bg-dark round" id="reference-canvas" width="400" height="500"></canvas>
+        <canvas class="bg-dark round" id="generate-canvas"  width="400" height="500"></canvas>
+        <canvas id="testing-canvas" width="400" height="500" style="display: none;"></canvas>
+      </div>
+    </div>
+
+    <!-- custom js -->
+    <script src="settings.js"></script>
+    <script src="main.js"></script>
+    <script src="artist.js"></script>
+    <script src="poligon.js"></script>
+  </body>
+</html>
